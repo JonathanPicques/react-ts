@@ -6,7 +6,7 @@
             "request": "launch",
             "url": "http://localhost:3000",
             "port": 9222,
-            "name": "Chrome",
+            "name": "Debug",
             "webRoot": "${workspaceFolder}/frontend",
             "userDataDir": false
         },
