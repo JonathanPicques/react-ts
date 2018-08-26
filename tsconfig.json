@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "lib": ["es2016"],
+        "target": "es5",
+        "outDir": "build",
+        "rootDir": "src",
+        "sourceMap": true,
+        "skipLibCheck": true,
+        "noImplicitAny": true,
+        "noImplicitThis": true,
+        "noUnusedLocals": true,
+        "strictNullChecks": true,
+        "moduleResolution": "node",
+        "noErrorTruncation": true,
+        "noImplicitReturns": true,
+        "downlevelIteration": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "suppressImplicitAnyIndexErrors": true,
+        "forceConsistentCasingInFileNames": true
+    },
+    "exclude": ["node_modules", "build"]
+}

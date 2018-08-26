@@ -1,0 +1,9 @@
+{
+    "extends": "../tsconfig.json",
+    "compilerOptions": {
+        "jsx": "react",
+        "lib": ["es2016", "dom"],
+        "module": "es6",
+        "baseUrl": "/"
+    }
+}

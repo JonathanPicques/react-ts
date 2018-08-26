@@ -1,0 +1,28 @@
+{
+    "folders": [
+        {
+            "path": "..\\"
+        }
+    ],
+    "settings": {
+        "files.exclude": {
+            "frontend/node_modules": true,
+            "frontend/srcDev": true,
+            "frontend/public": true,
+            "frontend/build": true,
+            "backend/node_modules": true,
+            "backend/build": true,
+            ".idea": true
+        },
+        "yarn.packageJson": "frontend/package.json",
+        "yarn.runInTerminal": true,
+        "typescript.tsdk": "frontend/node_modules/typescript/lib",
+        "simpleIcons.hideArrows": true,
+        "gitlens.codeLens.enabled": false,
+        "editor.tabSize": 4,
+        "editor.formatOnSave": true,
+        "editor.insertSpaces": true,
+        "editor.detectIndentation": false,
+        "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe"
+    }
+}

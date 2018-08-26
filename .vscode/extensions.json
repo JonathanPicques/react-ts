@@ -1,0 +1,14 @@
+{
+    "recommendations": [
+        "eg2.tslint",
+        "pnp.polacode",
+        "eamodio.gitlens",
+        "gamunu.vscode-yarn",
+        "IBM.output-colorizer",
+        "esbenp.prettier-vscode",
+        "msjsdiag.debugger-for-chrome",
+        "formulahendry.auto-rename-tag",
+        "LaurentTreguier.vscode-simple-icons",
+        "Celestory.snippets-for-react-redux-typescript"
+    ]
+}

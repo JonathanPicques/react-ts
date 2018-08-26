@@ -1,0 +1,25 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "chrome",
+            "request": "launch",
+            "url": "http://localhost:3000",
+            "port": 9222,
+            "name": "Chrome",
+            "webRoot": "${workspaceFolder}/frontend",
+            "userDataDir": false
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "cwd": "${workspaceFolder}/frontend",
+            "name": "Tests",
+            "args": ["test", "--env=jsdom", "--runInBand"],
+            "console": "integratedTerminal",
+            "protocol": "inspector",
+            "runtimeExecutable": "${workspaceFolder}/frontend/node_modules/.bin/react-scripts-ts",
+            "internalConsoleOptions": "neverOpen"
+        }
+    ]
+}
