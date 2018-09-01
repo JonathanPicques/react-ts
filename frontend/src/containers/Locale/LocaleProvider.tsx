@@ -8,8 +8,8 @@ import {bindActionCreators, Dispatch} from 'redux';
 import fr from './translations/fr';
 import en from './translations/en';
 import {AppReduxState} from '../App/AppRedux';
-import {LocaleReduxState} from './reducers/reducers';
-import {localeChangeActionCreator} from './actions/change';
+import {LocaleReduxState} from './redux/reducers/reducers';
+import {localeChangeActionCreator} from './redux/actions/change';
 
 const locales = {fr, en};
 addLocaleData([...reactIntlFr, ...reactIntlEn]);

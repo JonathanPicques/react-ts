@@ -1,4 +1,4 @@
-import {chainReducers} from '../../../utils/redux/chainReducers';
+import {chainReducers} from '../../../../utils/redux/chainReducers';
 import {localeChangeReducer} from './change';
 
 interface LocaleReduxState {

@@ -1,7 +1,7 @@
 import {composeWithDevTools} from 'redux-devtools-extension';
 import {createStore, combineReducers} from 'redux';
 
-import {LocaleReduxState, localeReducer} from '../Locale/reducers/reducers';
+import {LocaleReduxState, localeReducer} from '../Locale/redux/reducers/reducers';
 
 interface AppReduxState {
     locale: LocaleReduxState;
