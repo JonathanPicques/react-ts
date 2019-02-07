@@ -1,15 +1,15 @@
 import * as React from 'react';
-import {connect} from 'react-redux';
 import * as reactIntlFr from 'react-intl/locale-data/fr';
 import * as reactIntlEn from 'react-intl/locale-data/en';
+import {connect} from 'react-redux';
 import {addLocaleData, IntlProvider} from 'react-intl';
 import {bindActionCreators, Dispatch} from 'redux';
 
-import fr from './translations/fr';
-import en from './translations/en';
-import {AppReduxState} from '../App/AppRedux';
-import {LocaleReduxState} from './redux/reducers/reducers';
-import {localeChangeActionCreator} from './redux/actions/change';
+import fr from './data/services/translations/fr';
+import en from './data/services/translations/en';
+import {AppReduxState} from '../App/data/AppState';
+import {LocaleReduxState} from './data/reducers/reducers';
+import {localeChangeActionCreator} from './data/actions/change';
 
 const locales = {fr, en};
 addLocaleData([...reactIntlFr, ...reactIntlEn]);

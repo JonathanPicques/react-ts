@@ -4,6 +4,7 @@
         "jsx": "react",
         "lib": ["es2016", "dom"],
         "module": "es6",
-        "baseUrl": "/"
+        "baseUrl": "/",
+        "rootDir": "src"
     }
 }

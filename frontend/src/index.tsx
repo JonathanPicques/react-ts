@@ -4,7 +4,7 @@ import registerServiceWorker from './offline';
 
 import {App} from './containers/App/App';
 import {Provider} from 'react-redux';
-import {store} from './containers/App/AppRedux';
+import {store} from './containers/App/data/AppState';
 import {LocaleProvider} from './containers/Locale/LocaleProvider';
 
 ReactDOM.render(
